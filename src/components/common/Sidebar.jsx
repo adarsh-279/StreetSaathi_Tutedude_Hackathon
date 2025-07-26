@@ -4,10 +4,13 @@ import { Link } from "react-router-dom";
 const Sidebar = () => {
   return (
     <div className="bg-gray-800 text-white w-64 h-full p-5 border-r-2 border-[#ffffff10]">
-      <h2 className="text-3xl font-bold mb-4 border-b-2 border-[#ffffff10] text-center pb-4">
+      <Link
+        to="/"
+        className="text-3xl font-bold mb-4 border-b-2 border-[#ffffff10] text-center pb-4"
+      >
         StreetSathi
-      </h2>
-      <ul>
+      </Link>
+      <ul className="mt-10">
         <li className="mb-2 text-lg">
           <Link to="/dashboard" className="hover:text-gray-400">
             Dashboard
