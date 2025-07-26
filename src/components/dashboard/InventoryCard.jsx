@@ -1,8 +1,8 @@
-import React from "react";
-
 const InventoryCard = ({ item }) => {
+  if (!item) return null; // or a fallback UI
+
   return (
-    <div className="bg-white shadow-md rounded-lg p-4">
+    <div className="bg-white text-black shadow-md rounded-lg p-4">
       <h3 className="text-lg font-semibold">{item.name}</h3>
       <p className="text-gray-600">Quantity: {item.quantity}</p>
       <p
@@ -15,5 +15,4 @@ const InventoryCard = ({ item }) => {
     </div>
   );
 };
-
 export default InventoryCard;

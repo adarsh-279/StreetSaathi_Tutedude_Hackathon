@@ -1,13 +1,13 @@
 import React from "react";
-import Navbar from "../components/common/Navbar";
-import Sidebar from "../components/common/Sidebar";
-import InventoryCard from "../components/dashboard/InventoryCard";
-import OrderList from "../components/dashboard/OrderList";
-import Stats from "../components/dashboard/Stats";
+import Sidebar from "../components/common/Sidebar"
+import Navbar from "../components/Navbar"
+import Stats from "../components/dashboard/Stats"
+import InventoryCard from "../components/dashboard/InventoryCard"
+import OrderList from "../components/dashboard/OrderList"
 
 const Dashboard = () => {
   return (
-    <div className="flex">
+    <div className="flex w-full min-h-screen bg-zinc-900 text-white">
       <Sidebar />
       <div className="flex-1 p-4">
         <Navbar />
