@@ -4,11 +4,13 @@ import { FaEdit, FaTrash, FaPlus } from "react-icons/fa";
 const InventoryCard = ({ item, onEdit, onDelete, onIncrease }) => {
   if (!item) return null;
 
-  // Determine dynamic status color
-  const statusColor =
-    item.status === "Low Stock"
-      ? "bg-red-100 text-red-600"
-      : "bg-green-100 text-green-600";
+  const statusStyles = {
+    "Low Stock": "bg-red-100 text-red-600",
+    "In Stock": "bg-green-100 text-green-600",
+    "Out of Stock": "bg-gray-200 text-gray-600",
+  };
+
+  const statusColor = statusStyles[item.status] || "bg-gray-100 text-gray-500";
 
   return (
     <div className="bg-white shadow-lg rounded-lg p-6 flex flex-col justify-between hover:shadow-xl transition duration-200">
