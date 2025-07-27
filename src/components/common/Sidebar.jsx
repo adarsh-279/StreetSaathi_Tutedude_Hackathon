@@ -42,7 +42,7 @@ const Sidebar = () => {
           </Link>
         </li>
         <li className="mb-2 text-lg">
-          <Link to="/delivery-status" className="hover:text-gray-400">
+          <Link to="/delhivery" className="hover:text-gray-400">
             Delivery Status
           </Link>
         </li>
