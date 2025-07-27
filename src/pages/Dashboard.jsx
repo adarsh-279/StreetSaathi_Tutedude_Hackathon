@@ -2,7 +2,7 @@ import React from "react";
 import Sidebar from "../components/common/Sidebar"
 import Stats from "../components/dashboard/Stats"
 import InventoryCard from "../components/dashboard/InventoryCard"
-import OrderList from "../components/dashboard/Orderlist"
+import OrderList from "../components/dashboard/OrderList"
 
 const Dashboard = () => {
   return (
