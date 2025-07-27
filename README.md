@@ -8,7 +8,7 @@
 
 [Video](https://drive.google.com/file/d/1Fsg1jYnMzW9AKEKEq-UTBkaQcB_OAuTT/view?usp=sharing )
 
-[Presentation](https://docs.google.com/presentation/d/1B4mtoUIEsgBIieJITVNO8JpAjfmn2aHX/edit?usp=sharing&ouid=111070617280976572087&rtpof=true&sd=true)
+[Presentation](https://1drv.ms/p/c/5fe855b0aa0c8a30/Ebzlq_hMQNVAlHBLf4y4QWIBIIafSfmULvtchCzBjP-Q5Q?e=eOgyCE)
 
 ---
 
