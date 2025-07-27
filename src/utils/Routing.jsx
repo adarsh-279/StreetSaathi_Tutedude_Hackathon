@@ -8,6 +8,7 @@ import DashboardPage from '../components/dashboard/DashboardPage'
 import UsersList from '../components/dashboard/UsersList';
 import RevenuePage from '../components/dashboard/RevenuePage';
 import DelhiveryPage from '../components/dashboard/DelhiveryPage';
+import CostSplit from '../components/vendor/CostSplit';
 
 const Routing = () => {
   return (
@@ -21,6 +22,7 @@ const Routing = () => {
         <Route path="/users" element={<UsersList />} />
         <Route path="/revenue" element={<RevenuePage />} />
         <Route path="/delhivery" element={<DelhiveryPage />} />
+        <Route path="/cost-split" element={<CostSplit />} />
       </Routes>
     </>
   );
