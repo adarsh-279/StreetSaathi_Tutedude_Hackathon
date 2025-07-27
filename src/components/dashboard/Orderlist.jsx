@@ -13,7 +13,7 @@ const formatCurrency = (value) =>
     currency: "INR",
   }).format(value);
 
-const OrderList = () => {
+const Orderlist = () => {
   const [orders, setOrders] = useState([]);
   const [loading, setLoading] = useState(true);
 
@@ -96,4 +96,4 @@ const OrderList = () => {
   );
 };
 
-export default OrderList;
+export default Orderlist;
